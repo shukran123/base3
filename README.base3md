@@ -1,16 +1,4 @@
-# base3
-def is_palindrome(text: str) -> bool:
-    """
-    Check if a string is a palindrome.
-    Ignores spaces and case.
-    """
-    cleaned = text.replace(" ", "").lower()
-    return cleaned == cleaned[::-1]
+feat: add palindrome checker in JavaScript
 
-
-if __name__ == "__main__":
-    word = input("Enter text: ")
-    if is_palindrome(word):
-        print("It's a palindrome!")
-    else:
-        print("Not a palindrome.")
+- Implemented simple palindrome function
+- Added example usage
